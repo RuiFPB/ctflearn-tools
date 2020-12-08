@@ -71,6 +71,7 @@ def xorbrute(lst1):
         answr = input('is this correct? [s/n]')
         # if the given text is readable, stop; else continue xor
         if answr == 's':
+            print("The xor key was 0b" + poss)
             return
         else:
             pass
